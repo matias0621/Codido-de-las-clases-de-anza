@@ -1,0 +1,16 @@
+body {
+    background: rgb(109, 109, 213);
+}
+
+.fondo-1{
+    background: rgb(51, 205, 61);
+    width: 250px;
+    height: 250px;
+}   
+
+.fondo-2 {
+    background: url('https://es.goldenrealm.com/wp-content/uploads/sites/2/2023/05/Goldenrealm_a_female_robot_painting_a_beautiful_picture_with_oi_9124f74a-3d01-4cc6-b103-e19ed1db80e4.png');
+    width: 250px;
+    height: 250px;
+    color: white;
+}

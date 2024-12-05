@@ -1,0 +1,21 @@
+.contendor {
+    background: red;
+    border: 2px solid black;
+    font-size: 3rem;
+}
+
+/*
+    mi codigo le da unos 
+    estilos a todas las 
+    etiquetas html que tengan
+    la clase lista
+*/
+.lista {
+    list-style: none;
+    /* width: 20rem;  */
+    width: 50%;
+    height: 300px;
+    /* 1em = 16px */
+    /* 1rem = 16px */
+    
+}

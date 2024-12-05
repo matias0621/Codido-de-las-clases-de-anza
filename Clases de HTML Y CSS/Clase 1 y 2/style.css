@@ -1,0 +1,31 @@
+body {
+    background: black;
+    color: white;
+}
+
+h1 {
+    color: rgb(74, 149, 42);
+    font-size: smaller;
+}
+
+h6 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+h2 {
+    color: aqua;
+}
+
+.titulo-color-azul {
+    color: rgb(165, 209, 126);
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+.alinear-imagenes {
+  display: flex;  
+}
