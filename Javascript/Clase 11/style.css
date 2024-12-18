@@ -1,0 +1,22 @@
+/* Estilos de mi parrafo */
+p{
+    columns: auto; 
+}
+
+.menu-container{
+    background: purple;
+    width: 250px;
+    height: 250px;
+    transform: translateX(-110%);
+    transition: all 10s ease;
+}
+
+.arrastrarMenu{
+    transform: translateX(0%);
+}
+
+.texto-secreto {
+    color: red;
+    font-size: 5rem;
+    font-weight: bolder;
+}
