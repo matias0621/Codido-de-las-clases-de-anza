@@ -3,20 +3,43 @@ p{
     columns: auto; 
 }
 
-.menu-container{
+/* .menu-container{
     background: purple;
     width: 250px;
     height: 250px;
     transform: translateX(-110%);
-    transition: all 10s ease;
+    transition: all 1s ease;
 }
 
 .arrastrarMenu{
     transform: translateX(0%);
-}
+} */
 
 .texto-secreto {
     color: red;
     font-size: 5rem;
     font-weight: bolder;
+}
+
+.texto-para-el-contenedor {
+    color: chocolate;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.clase-secreta{
+    font-size: 3rem;
+    color: rgb(205, 72, 161);
+}
+
+.menu {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    transform: translateX(-100%);
+    transition: all 1s ease; 
+}
+
+.menu-abierto {
+    transform: translateX(0%);
 }

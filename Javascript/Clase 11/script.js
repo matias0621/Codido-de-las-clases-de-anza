@@ -8,6 +8,7 @@ let numeroConComa = 53.6 // Float o Double
 let palabras = "Brayan" // String
 let caracteres = 'e' // Letras basicamente
 let booleanos = true // Boleanos osea solo verdadero o falso o tambien 1 o 0
+let stringVacio = ""
 
 //----------------------------EJEMPLO DE MENU DESPLEGABLE--------------------------//
 const botonQueApretar = document.getElementById("boton-que-tenes-apretar")
@@ -25,5 +26,27 @@ let texto = "<div class='texto-secreto'>Descubriste este texto super secreto</di
 botonQueSiTenesQueApretar.addEventListener("click", () => {
     textoSecreto.innerHTML = texto
 })
+//----------------------------------EJEMPLO DE OBTENER ETIQUETAS HTML EN EL JS------------------------//
+const botonDeEjemplo = document.getElementById("boton-ejemplo-gato")
+const cuadroDeTexto = document.getElementById("texto")
+const textoContenedor = document.getElementById("texto-contenedor")
+
+botonDeEjemplo.addEventListener("click", () => {
+    ejemploDeFuncion()
+})
 
 
+//-------------------------------------EJEMPLO DE FUNCIONES--------------------------------------//
+function ejemploDeFuncion(){
+    const platilla = `<div class="texto-para-el-contenedor"> ${cuadroDeTexto.value} </div>`
+    textoContenedor.innerHTML = platilla
+}
+//---------------------------------JAVASCRIPT, HTML Y CSS----------------------//
+
+const boton = document.getElementById("prueba");
+const menuCelulares = document.getElementById("menu-cel");
+
+boton.addEventListener("click", () => {
+    console.log("f")
+  menuCelulares.classList.add("menu-abierto");
+});

@@ -1,0 +1,13 @@
+.tareas {
+    font-size: 2rem;
+    color: green;
+    font-weight: bold;
+}
+
+.btn-check {
+    background: none;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    border: none;
+}
