@@ -54,6 +54,6 @@ function eliminarAuto(index) {
 renderizarAutos()
 
 
-
+console.log("Puto el que lo lea")
 
 // JSON Todos los putos lenguajes de programacion Object Notacion
