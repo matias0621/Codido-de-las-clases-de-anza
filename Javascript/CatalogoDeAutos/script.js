@@ -48,12 +48,16 @@ function renderizarAutos() {
 function eliminarAuto(index) {
     autos = autos.filter((_, i) => i != index)
     guardarAutosEnLocalStorage()
+    
     renderizarAutos()
 }
 
 renderizarAutos()
 
 
-console.log("Puto el que lo lea")
+console.log()
 
+if (5 > 4 && true === false){
+
+}
 // JSON Todos los putos lenguajes de programacion Object Notacion
